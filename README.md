@@ -15,11 +15,13 @@ Usually the observational data for these kinds of problems is somewhat limited i
 ## Steps of the Process
 
 **1. Loading Data and basic editing**
+
 1.1 Import .csv file into a dataframe using pandas
 1.2 Make column names compliant with the **underscore_separated** naming convention
 1.3 SQL Queries Section
 
 **2. Data Cleaning**
+
 2.1 Check dataframe dtypes
 2.2 Fix wrong dtypes
 2.3 Deal with null values
@@ -28,25 +30,29 @@ Usually the observational data for these kinds of problems is somewhat limited i
 **3. Separate the variables into numerical and categorical**
 
 **4. Data wrangling**
+
 4.1 Numerical variables 
 4.2 Categorical variables
 
 **5. Standardize and encode**
+
 5.1 Standardize numerical variables
 5.2 Encode categorical variables
 5.3 Put all the features together
 
-**6. Deal with data imbalance **
+**6. Deal with data imbalance**
 
 **7. Test-train split**
 
 **8. Training Predictive Models**
+
 8.1 Logistic Regression Model
 8.2 KNN Classifier
 8.3 Decision Tree Classifier
 8.4 Random Forest Classifier
 
 **9. Validation of the model**
+
 9.1 Evaluate with Confusion Matrix
 9.2 Evaluate with ROC and AUC
 
